@@ -8,6 +8,9 @@ body, h1, h2, p {
 nav {
     background-color: #333;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav ul {
@@ -22,9 +25,14 @@ nav a {
     text-decoration: none;
 }
 
+/* Create space for the fixed navigation bar */
+body {
+    margin-top: 3em; /* Adjust as needed */
+}
+
 /* Style the hero/header section */
 .hero {
-    background-image: url('qwe.png');
+    background-image: url('bg.avif');
     background-size: cover;
     text-align: center;
     padding: 4em 0;
